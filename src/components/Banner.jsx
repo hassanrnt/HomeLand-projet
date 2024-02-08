@@ -20,7 +20,7 @@ const Banner = () => {
         <img src={Image} alt="" />
       </div>
     </div>
-
+    <Search />
   </section>;
 };
 
