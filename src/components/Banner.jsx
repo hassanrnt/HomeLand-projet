@@ -6,7 +6,14 @@ import Image from '../assets/img/house-banner.png';
 import Search from '../components/Search';
 
 const Banner = () => {
-  return <section>Banner</section>;
+  return <section>
+    <div>
+      <div>
+        <h1><span>Rent</span>Your Dream House with Us.</h1>
+      </div>
+    </div>
+
+  </section>;
 };
 
 export default Banner;
