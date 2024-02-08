@@ -12,14 +12,12 @@ const Banner = () => {
         <h1><span>Rent</span>Your Dream House with Us.
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur
-           adipisicing elit. Quod
-           accusantium necessitatibus 
-           tempore obcaecati debitis, facilis
-            aspernatur, quibusdam ipsa qui quo
-             repellendus vel labore eligendi
-             repudiandae, alias dolor sed quos ad.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum alias dolorem quos quae illo repudiandae pariatur nostrum accusantium enim ipsam, quisquam ab minus eius animi consectetur aspernatur accusamus! Beatae.
         </p>
+      </div>
+      {/* image */}
+      <div>
+        <img src={Image} alt="" />
       </div>
     </div>
 
