@@ -11,7 +11,7 @@ const HouseContextProvider = ({children}) => {
   const [houses, setHouses] = useState(housesData);
   const [country, setCountry] = useState('Location (any)');
   const [countries, setCountries] = useState([]);
-  const [Property, setProperty] = useState('Propertytype (any)');
+  const [property, setProperty] = useState('Propertytype (any)');
   const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState('Price range (any)');
   const [loading, setLoading] = useState(false);
@@ -27,14 +27,11 @@ const HouseContextProvider = ({children}) => {
     setCountries(uniqueCountries)
   }, []);
 
-
-
-
   return <HouseContext.Provider value={{
 country,
 setCountry,
 countries,
-Property,
+property,
 setProperty,
 properties,
 price,
