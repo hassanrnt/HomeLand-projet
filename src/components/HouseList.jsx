@@ -1,19 +1,21 @@
-import React , {useContext}from 'react';
+import React, {useContext} from 'react';
 
 // import context
 import {HouseContext} from './HouseContext';
 
-// import components 
+// import components
 import House from './House';
 
-// import Link
+// import link
 import {Link} from 'react-router-dom';
+
 // import icons
 import {ImSpinner2} from 'react-icons/im';
-const {Houses, loading} = useContext(HouseContext);
-console.log(Houses)
 
 const HouseList = () => {
+  const {houses, loading} = useContext(HouseContext);
+  console.log(houses)
+
   return <div>HouseList</div>;
 };
 
