@@ -38,6 +38,11 @@ const HouseContextProvider = ({children}) => {
     setProperties(uniqueProperties);
   }, []);
 
+const handleClick = ()=>{
+  console.log('clicked');
+}
+
+
   return <HouseContext.Provider value={{
 country,
 setCountry,
@@ -49,6 +54,7 @@ price,
 setPrice,
 houses,
 loading,
+handleClick,
 
 
   }}>{children}</HouseContext.Provider>;
