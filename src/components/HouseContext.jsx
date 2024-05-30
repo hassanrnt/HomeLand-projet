@@ -39,7 +39,7 @@ const HouseContextProvider = ({children}) => {
   }, []);
 
 const handleClick = ()=>{
-  console.log('clicked');
+  console.log(country, property, price);
 }
 
 
