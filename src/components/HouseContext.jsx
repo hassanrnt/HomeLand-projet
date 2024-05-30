@@ -39,6 +39,8 @@ const HouseContextProvider = ({children}) => {
   }, []);
 
 const handleClick = ()=>{
+  // get loading
+  setLoading(true);
 
   // create a function that the checks if the string includes '(any)'
   const isDefault = (str)=>{
@@ -85,7 +87,12 @@ const handleClick = ()=>{
       return house.country === country && house.type === property;
     }
   });
-  console.log(newHouses);
+
+  setTimeout(()=>{
+    return newHouses.length < 1 ? setHouses([]) :
+    setHouses(newHouses);
+    setLoading(false);
+  });
 
 }
 
