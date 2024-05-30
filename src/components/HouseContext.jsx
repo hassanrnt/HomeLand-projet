@@ -78,6 +78,12 @@ const newHouses = housesData.filter((house)=>{
       return house;
     }
   }
+
+  // if country & property is not default 
+
+  if (!isDefault(country) && !isDefault(property) && isDefault(price)) {
+    return house.country === country && house.type === property;
+  }
 });
 console.log(newHouses);
 
