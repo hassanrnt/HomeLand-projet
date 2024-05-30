@@ -45,7 +45,21 @@ const handleClick = ()=>{
     return str.split('').includes('(any)');
   };
   // get first value of price and parse it to number
-  console.log(parseInt(price.split('')[0]));
+  const minPrice = parseInt(price.split('')[0]);
+  // get second value of price white is the maximum price & parse it to number
+  const maxPrice = parseInt(price.split('')[2]);
+
+const newHouses = housesData.filter((house)=>{
+  const housePrice = parseInt(house.price);
+
+
+  // if alt value are selected 
+  if (house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice ) {
+    return house;
+  }
+});
+return newHouses;
+
 }
 
 
