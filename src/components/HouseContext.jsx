@@ -42,7 +42,7 @@ const handleClick = ()=>{
 
   // create a function that the checks if the string includes '(any)'
   const isDefault = (str)=>{
-    return str.split('').includes('(any)');
+    return str.split(' ').includes('(any)');
   };
   // get first value of price and parse it to number
   const minPrice = parseInt(price.split(' ')[0]);
