@@ -57,8 +57,29 @@ const newHouses = housesData.filter((house)=>{
   if (house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice ) {
     return house;
   }
+
+  // if alt value are default
+  if (isDefault(country) && isDefault(property) && isDefault(price)) {
+    return house;
+  }
+
+  // if country is is not defaoult
+  if (!isDefault(country) && isDefault(property)&& isDefault(price)) {
+    return house.country === country;
+  }
+
+  // if property is not default
+  if (!isDefault(property) && isDefault(country) && isDefault(price)) {
+    return house.type === property;
+  }
+  // if price is not default
+  if (!isDefault(price) && isDefault(country) && isDefault(property)) {
+    if (housePrice>= minPrice && housePrice <= maxPrice){
+      return house;
+    }
+  }
 });
-return newHouses;
+console.log(newHouses);
 
 }
 
