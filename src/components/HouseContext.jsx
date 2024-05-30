@@ -39,7 +39,13 @@ const HouseContextProvider = ({children}) => {
   }, []);
 
 const handleClick = ()=>{
-  console.log(country, property, price);
+
+  // create a function that the checks if the string includes '(any)'
+  const isDefault = (str)=>{
+    return str.split('').includes('(any)');
+  };
+  // get first value of price and parse it to number
+  console.log(parseInt(price.split('')[0]));
 }
 
 
