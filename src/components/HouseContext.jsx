@@ -92,7 +92,7 @@ const handleClick = ()=>{
     return newHouses.length < 1 ? setHouses([]) :
     setHouses(newHouses);
     setLoading(false);
-  });
+  }, 1000);
 
 }
 
@@ -109,6 +109,7 @@ setPrice,
 houses,
 loading,
 handleClick,
+loading,
 
 
   }}>{children}</HouseContext.Provider>;

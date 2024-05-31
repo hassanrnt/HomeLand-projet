@@ -14,6 +14,11 @@ import {ImSpinner2} from 'react-icons/im';
 
 const HouseList = () => {
   const {houses, loading} = useContext(HouseContext);
+
+  // if loading is true
+  if (loading) {
+    return (<ImSpinner2 className='mx-auto animate-spin text-violet-700 text-4x1 mt-[200px]'/>)
+  }
   
 
   return <section className='mt-20'>
