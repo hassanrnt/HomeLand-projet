@@ -279,7 +279,7 @@ export const housesData = [
     bedrooms: '7',
     bathrooms: '2',
     surface: '2200 sq ft',
-    year: '2019',
+    year: '2024',
     price: '1450000',
     agent: {
       image: Agent11,
@@ -301,7 +301,7 @@ export const housesData = [
     bathrooms: '4',
     surface: '4600 sq ft',
     year: '2024',
-    price: '1390000',
+    price: '1400000',
     agent: {
       image: Agent12,
       name: 'brahim Hood',
