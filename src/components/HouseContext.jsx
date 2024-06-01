@@ -75,7 +75,7 @@ const handleClick = ()=>{
       return house.type === property;
     }
     // if price is not default
-    if (isDefault(price) && isDefault(country) && isDefault(property)) {
+    if (!isDefault(price) && isDefault(country) && isDefault(property)) {
       if (housePrice>= minPrice && housePrice <= maxPrice){
         return house;
       }

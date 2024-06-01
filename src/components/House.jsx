@@ -35,7 +35,7 @@ const House = ({house}) => {
           </div>
           <div>{surface}</div>
         </div>
-        <div className='text-lg font-semibold text-violet-600'>$ {price}</div>
+        <div className='text-lg font-semibold text-violet-600'>{price} Dh</div>
       </div>
     </div>
     
