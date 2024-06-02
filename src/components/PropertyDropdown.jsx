@@ -18,7 +18,7 @@ const PropertyDropdown = () => {
       <RiHome5Line className='dropdown-icon-primary'/>
       <div>
         <div className='text-[15px] font-medium leading-light'>{property}</div>
-        <div className='text-[13px]'>Select your place</div>
+        <div className='text-[13px]'>Sélectionnez Type de propriété</div>
         </div>
         {
           isOpen ? (

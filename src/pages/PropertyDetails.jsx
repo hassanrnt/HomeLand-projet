@@ -73,13 +73,13 @@ const PropertyDetails = () => {
               <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
               placeholder='Email*' />
               <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
-               placeholder='Name*' />
+               placeholder='Nom*' />
               <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text" 
-               placeholder='Phone*'/>
-              <textarea className='border border-gray-300 focus:border-violet-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400'placeholder='message*'defaultValue='hello, I am interested in [Modern apartment]' ></textarea>
+               placeholder='Téléphone*'/>
+              <textarea className='border border-gray-300 focus:border-violet-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400' placeholder='message*' defaultValue='Bonjour, je suis intéressé(e) par [Appartement moderne].' ></textarea>
               <div className='flex gap-x-2'>
-                <button className='bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition'>Send message</button>
-                <button className='border border-violet-700 text-violet-70 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Call</button>
+                <button className='bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition'>Envoyer un message</button>
+                <button className='border border-violet-700 text-violet-70 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Appeler</button>
               </div>
             </form>
         </div>

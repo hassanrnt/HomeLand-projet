@@ -9,11 +9,11 @@ export const HouseContext = createContext()
 
 const HouseContextProvider = ({children}) => {
   const [houses, setHouses] = useState(housesData);
-  const [country, setCountry] = useState('Location (any)');
+  const [country, setCountry] = useState("lieu (tous)");
   const [countries, setCountries] = useState([]);
-  const [property, setProperty] = useState('Propertytype (any)');
+  const [property, setProperty] = useState("Type de propriété (tous)");
   const [properties, setProperties] = useState([]);
-  const [price, setPrice] = useState('Price range (any)');
+  const [price, setPrice] = useState('Fourchette de prix (tous)');
   const [loading, setLoading] = useState(false);
 
   // return all countries 
@@ -22,7 +22,7 @@ const HouseContextProvider = ({children}) => {
       return House.country;
     });
     // remove duplicates
-    const uniqueCountries = ['Location (any)' , ...new Set(allCountries)]
+    const uniqueCountries = ['lieu (tous)' , ...new Set(allCountries)]
     // set countries state
     setCountries(uniqueCountries)
   }, []);
@@ -33,7 +33,7 @@ const HouseContextProvider = ({children}) => {
       return House.type;
     });
     // remove duplicates
-    const uniqueProperties = ['Location (any)' , ...new Set(allProperties)]
+    const uniqueProperties = ['Type de propriété (tous)' , ...new Set(allProperties)]
     // set properties state
     setProperties(uniqueProperties);
   }, []);
@@ -44,7 +44,7 @@ const handleClick = ()=>{
 
   // create a function that the checks if the string includes '(any)'
   const isDefault = (str)=>{
-    return str.split(' ').includes('(any)');
+    return str.split(' ').includes('(tous)');
   };
   // get first value of price and parse it to number
   const minPrice = parseInt(price.split(' ')[0]);
