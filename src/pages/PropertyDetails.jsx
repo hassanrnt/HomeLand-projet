@@ -12,7 +12,6 @@ import {BiBed, BiBath, BiArea} from 'react-icons/bi';
 // import link
 import { Link } from 'react-router-dom';
 
-
 const PropertyDetails = () => {
 
   // get the house id
