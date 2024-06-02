@@ -69,9 +69,9 @@ const PropertyDetails = () => {
             </div>
             {/*form*/}
             <form>
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
+              <input className='bg-red-500' type="text" />
+              <input className='bg-green-500' type="text" />
+              <input className='bg-yellow-500' type="text" />
             </form>
           </div>
         </div>
