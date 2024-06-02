@@ -67,10 +67,18 @@ const PropertyDetails = () => {
               <Link to='' className='text-violet-700 text-sm'>View Listing</Link>
             </div>
             {/*form*/}
-            <form>
-              <input className='bg-red-500' type="text" />
-              <input className='bg-green-500' type="text" />
-              <input className='bg-yellow-500' type="text" />
+            <form className='flex flex-col gap-y-4'>
+              <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
+              placeholder='Email*' />
+              <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
+               placeholder='Name*' />
+              <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text" 
+               placeholder='Phone*'/>
+              <textarea className='border border-gray-300 focus:border-violet-700 outline-none resize-none rounded w-full p-4 h-36 text-sm text-gray-400'placeholder='message*'defaultValue='hello, I am interested in [Modern apartment]' ></textarea>
+              <div className='flex gap-x-2'>
+                <button className='bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition'>Send message</button>
+                <button className='border border-violet-700 text-violet-70 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Call</button>
+              </div>
             </form>
           </div>
         </div>
