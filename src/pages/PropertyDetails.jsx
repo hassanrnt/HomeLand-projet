@@ -67,7 +67,9 @@ const PropertyDetails = () => {
               <Link to='' className='text-violet-700 text-sm'>View Listing</Link>
             </div>
             {/*form*/}
-            <form className='flex flex-col gap-y-4'>
+            
+          </div>
+          <form className='flex flex-col gap-y-4'>
               <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
               placeholder='Email*' />
               <input className='border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm' type="text"
@@ -80,7 +82,6 @@ const PropertyDetails = () => {
                 <button className='border border-violet-700 text-violet-70 hover:border-violet-500 hover:text-violet-500 rounded p-4 text-sm w-full transition'>Call</button>
               </div>
             </form>
-          </div>
         </div>
       </div>
     </div>
