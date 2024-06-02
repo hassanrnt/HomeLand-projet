@@ -65,7 +65,7 @@ export const housesData = [
     image: House1,
     imageLg: House1Lg,
     country: 'Marrakech',
-    address: '7240C Yarcob El Mansour Marrakech, 40000',
+    address: '7240C Yaacoub El Mansour Marrakech, 40000',
     bedrooms: '6',
     bathrooms: '3',
     surface: '4200 sq ft',
@@ -73,7 +73,7 @@ export const housesData = [
     price: '1100000',
     agent: {
       image: Agent1,
-      name: 'saad Tullert',
+      name: 'yassmine TssouLi',
       phone: '0645678910',
     },
   },
@@ -94,7 +94,7 @@ export const housesData = [
     price: '1400000',
     agent: {
       image: Agent2,
-      name: 'doae Hawker',
+      name: 'Mohamed marouani',
       phone: '0645678910',
     },
   },
@@ -115,7 +115,7 @@ export const housesData = [
     price: '1700000',
     agent: {
       image: Agent3,
-      name: 'Amado Smith',
+      name: 'hamza ait salleh',
       phone: '0645678910',
     },
   },
@@ -136,7 +136,7 @@ export const housesData = [
     price: '2000000',
     agent: {
       image: Agent4,
-      name: 'bochaibe Gonzalez',
+      name: 'Chaimaa reda',
       phone: '0645678910',
     },
   },
@@ -178,7 +178,7 @@ export const housesData = [
     price: '2200000',
     agent: {
       image: Agent6,
-      name: 'khald Sorensen',
+      name: 'Hasnaa Soufiani',
       phone: '0645678910',
     },
   },
@@ -199,7 +199,7 @@ export const housesData = [
     price: '200000',
     agent: {
       image: Agent7,
-      name: 'Jawhara Shamil Naser',
+      name: 'Nasser hillal',
       phone: '0645678910',
     },
   },
@@ -262,7 +262,7 @@ export const housesData = [
     price: '1170000',
     agent: {
       image: Agent10,
-      name: 'lina Levesque',
+      name: 'wafaa zidane',
       phone: '0645678910',
     },
   },
@@ -325,7 +325,7 @@ export const housesData = [
     price: '1800000',
     agent: {
       image: Agent1,
-      name: 'youssef Tullert',
+      name: 'zahraa Raoui',
       phone: '0645678910',
     },
   },
@@ -367,7 +367,7 @@ export const housesData = [
     price: '2210000',
     agent: {
       image: Agent3,
-      name: 'jamila Smith',
+      name: 'Jone Smith',
       phone: '0645678910',
     },
   },
@@ -430,7 +430,7 @@ export const housesData = [
     price: '380000',
     agent: {
       image: Agent6,
-      name: 'hamida Sorensen',
+      name: 'Sirin hamida',
       phone: '0645678910',
     },
   },

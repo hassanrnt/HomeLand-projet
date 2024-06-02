@@ -10,10 +10,10 @@ const Banner = () => {
     <div className='flex flex-col lg:flex-row'>
       <div className='lg:ml-8 x1:ml-[135] flex flex-col items-center lg:items-start text-center lg:text-left justify-center flex-1 px-4 lg:px-0'>
         <h1 className='text-4x1 lg:text-[58px] font-semibold leading-none mb-6'>
-          <span className='text-violet-700'>Rent</span>Your Dream House with Us.
+          <span className='text-violet-700'>I buy</span>Your Dream House with Us.
         </h1>
         <p className='max-w-[480px] mb-8'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum alias dolorem quos quae illo repudiandae pariatur nostrum accusantium enim ipsam, quisquam ab minus eius animi consectetur aspernatur accusamus! Beatae.
+        HomeLand is more than a real estate agency. Our real estate professional friends are rigorously selected throughout Morocco for their professional skills and human values. More than agents, our FRIENDS are committed to making your real estate project a great experience.
         </p>
       </div>
       {/* image */}
