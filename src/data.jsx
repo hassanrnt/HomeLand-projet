@@ -54,7 +54,7 @@ import Agent10 from './assets/img/agents/agent10.png';
 import Agent11 from './assets/img/agents/agent11.png';
 import Agent12 from './assets/img/agents/agent12.png';
 // 6 000 00
-// 1 100 00
+// 1 100 00s
 export const housesData = [
   {
     id: 1,
@@ -157,7 +157,7 @@ export const housesData = [
     price: '2100000',
     agent: {
       image: Agent5,
-      name: 'chaimaa Robinson',
+      name: 'Mohamed Yassine',
       phone: '0645678910',
     },
   },

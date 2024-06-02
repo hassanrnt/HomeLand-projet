@@ -37,6 +37,45 @@ const PropertyDetails = () => {
         </div>
         <div className='text 3x1 font-semibold text-violet-600'> MAD {house.price}</div>
       </div>
+      <div className='flex flex-col items-start gap-8 lg:flex-row'>
+        <div className='max-w-[768px]'>
+          <div className='mb-8'>
+            <img src={house.imageLg} alt="" />
+          </div>
+          <div className='flex gap-x-6 text-violet-700 mb-6'> 
+            <div className='flex gap-x-2 items-center'>
+              <BiBed className='Text-2x1'/>
+              <div>{house.bedrooms}</div>
+            </div>
+            <div className='flex gap-x-2 items-center'>
+              <BiBath className='Text-2x1'/>
+              <div>{house.bathrooms}</div>
+            </div>
+            <div className='flex gap-x-2 items-center'>
+              <BiArea className='Text-2x1'/>
+              <div>{house.surface}</div>
+            </div>
+          </div>
+          <div>{house.description}</div>
+        </div>
+        <div className='flex-l bg-white w-full mb-8 border border-gray-300 rounded-lg px-6 py-8 '>
+          <div className='flex items-center gap-x-4 mb-8'>
+            <div className='w-20 h-20 p-1 border border-gray-300 rounded-full'>
+              <img src={house.agent.image} alt="" />
+            </div>
+            <div>
+              <div className='font-bold text-lg'>{house.agent.name}</div>
+              <Link to='' className='text-violet-700 text-sm'>View Listing</Link>
+            </div>
+            {/*form*/}
+            <form>
+              <input type="text" />
+              <input type="text" />
+              <input type="text" />
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </section>;
 };
