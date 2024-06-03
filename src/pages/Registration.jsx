@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Registration() {
     return (
         <section className="bg-gray-50 dark:bg-gray-900">
-            <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+            <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
                 <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
                     <img className="mx-auto my-10 h-10 w-auto"
                     src={Logo}
@@ -19,15 +19,19 @@ function Registration() {
                         </h1>
                         <form className="space-y-4 md:space-y-6" action="#">
                             <div>
-                            <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nom</label>
-                                <input type="nom" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
+                                <label for="nom" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nom</label>
+                                <input type="text" name="nom" id="nom" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
                             </div>
-                            <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Prénom</label>
-                                <input type="prénom" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
-                                <div>
-                                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Votre ville</label>
-                                <input type="ville" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
-                                </div>
+                            <div>
+                                <label for="prénom" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Prénom</label>
+                                <input type="text" name="prénom" id="prénom" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
+                            </div>
+
+                            
+                            <div>
+                                <label for="ville" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Votre ville</label>
+                                <input type="text" name="ville" id="ville" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required="" />
+                            </div>
                             <div>
                                 <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Votre email</label>
                                 <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="" />
